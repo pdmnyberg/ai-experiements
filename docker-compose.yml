@@ -1,0 +1,6 @@
+services:
+  opencode:
+    build:
+      dockerfile: opencode-agentic.Dockerfile
+    volumes:
+      - ./opencode:/workspace
