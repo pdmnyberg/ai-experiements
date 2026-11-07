@@ -1,0 +1,5 @@
+pydantic
+pydantic_ai
+requests
+beautifulsoup4
+geopy

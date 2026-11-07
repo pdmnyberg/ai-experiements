@@ -1,0 +1,5 @@
+#/bin/bash
+export AI_BASE_URL=""
+export AI_API_KEY=""
+
+source venv/bin/activate && python system/tool_test.py
