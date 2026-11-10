@@ -1,5 +1,6 @@
 services:
   opencode:
+    env_file: "opencode.env"
     build:
       dockerfile: opencode-agentic.Dockerfile
     volumes:
