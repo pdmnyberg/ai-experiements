@@ -16,6 +16,7 @@ Agents should:
 - not be stateful and the availability of the agent should be dictated by the pool
 
 The system should:
+- focus on AI task orchestration
 - allow reading a JSON with initial tasks
 - allow reading a JSON which specifies the available agents
 - be built using python with type hints
@@ -24,3 +25,5 @@ The system should:
 - the agent pool should be responsible for keeping the availability state of an agent
 - the agent pool and the task queue should be separate subsystems
 - the work should be performed by a runner or orchestrator that matches tasks with agents
+- use the size of the pool to limit the scale of any execution
+- primarily be focused on being run as a one off script but the system components should be possible to re-use as library components for other implementations
